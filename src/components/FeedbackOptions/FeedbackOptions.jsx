@@ -11,7 +11,7 @@ const FeedbackOptions = ({ options, handleClick }) => {
         type="button"
         onClick={() => handleClick(option)}
       >
-        {option}
+        <span className={css.btnName}>{option}</span>
       </button>
     );
   });
